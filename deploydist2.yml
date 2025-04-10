@@ -1,4 +1,4 @@
-name: Deploy Dist
+ame: Deploy Dist
 # on: [push,workflow_dispatch]
 on:
     push:
@@ -71,5 +71,6 @@ jobs:
                 path: dist
             - name: Deploy
               run: echo "Deploy successfull"  
+
 
 
